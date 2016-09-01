@@ -1,3 +1,15 @@
+/* =====================================
+ *
+ *         CLIENT/SERVER EXAMPLE
+ *            August - 2016
+ *     Author: Gabriel de Lima Rabelo
+ *
+ *  Simple file server. It provides a list
+ *  of files available to be transfered as
+ *  well as sending those files.
+ *
+ * ===================================== */
+
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.File;

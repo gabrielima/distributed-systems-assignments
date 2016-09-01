@@ -1,3 +1,14 @@
+/* =====================================
+ *
+ *         CLIENT/SERVER EXAMPLE
+ *            August - 2016
+ *     Author: Gabriel de Lima Rabelo
+ *
+ *  Simple client for requesting files
+ *  from a file server.
+ *
+ * ===================================== */
+
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.FileOutputStream;

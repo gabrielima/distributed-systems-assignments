@@ -1,6 +1,6 @@
 # File Server
 
-Simple example for client/server applications in Java. A client requests a file from a server and the server sends it using sockets.
+Simple example for client/server applications in Java. A client requests a file from a server and the server sends it using sockets. Only small files (max: 8k).
 
 ## Atention
 
