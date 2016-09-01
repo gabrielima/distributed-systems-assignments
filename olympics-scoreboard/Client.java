@@ -77,7 +77,7 @@ public class Client {
   }
 
   public static void getCountry() throws IOException {
-    output.println("ONE"); // Sends request for info on one country
+    output.println("ONE"); // Sends request for a single country's info
     String confirmation = input.readLine(); // Reads confirmation
 
     if(confirmation.equals("ERROR")) // If error, print to console

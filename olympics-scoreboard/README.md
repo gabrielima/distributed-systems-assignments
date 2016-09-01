@@ -34,6 +34,6 @@ Now, in another terminal window, run the following:
 java Client localhost X
 ```
 
-### Disclamer
+### Disclaimer
 
 All of the code and comments are in English but the data is in Brazilian Portuguese.
