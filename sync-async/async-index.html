@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Asyn Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="box"></div>
+
+  <script type="text/javascript">
+    function addListeners() {
+      document
+        .getElementsByTagName('a')[0]
+        .addEventListener("click", function(event){
+          event.preventDefault();
+          ajax(this.href);
+        });
+    }
+
+    function ajax(href) {
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', href);
+      xhr.send(null);
+
+      xhr.onload = function() {
+        var elem = document.querySelector('.box');
+        elem.innerHTML = xhr.response;
+        addListeners();
+      }
+    }
+
+    ajax('async1.html');
+  </script>
+</body>
+</html>
