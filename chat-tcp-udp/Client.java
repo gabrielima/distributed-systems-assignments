@@ -212,7 +212,7 @@ class ServerUDP extends Thread {
         int port = packet.getPort();
         System.out.println("\n\n**************************************");
         System.out.println("**** YOU HAVE RECEIVED A MESSAGE *****");
-        System.out.println("************************************");
+        System.out.println("**************************************");
         System.out.println("IP:   \t" + ip + "\nPORT:   " + port + "\nMESSAGE: " + message);
         System.out.println("**************************************\n");
 
