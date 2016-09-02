@@ -11,11 +11,11 @@
   <script type="text/javascript">
     function addListeners() {
       document
-        .getElementsByTagName('a')[0]
-        .addEventListener("click", function(event){
-          event.preventDefault();
-          ajax(this.href);
-        });
+      .getElementsByTagName('a')[0]
+      .addEventListener("click", function(event){
+        event.preventDefault();
+        ajax(this.href);
+      });
     }
 
     function ajax(href) {
